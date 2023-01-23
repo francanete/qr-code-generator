@@ -1,6 +1,6 @@
 import express from "express";
 import qrcode from "qrcode";
-import { limiter } from "./middleware/rateLimit";
+import { limiter } from "./src/middleware/rateLimit";
 
 const app = express();
 
